@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		732D262F179538ED005817B4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 732D262E179538ED005817B4 /* Cocoa.framework */; };
+		732D2639179538ED005817B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 732D2637179538ED005817B4 /* InfoPlist.strings */; };
+		732D264217953B24005817B4 /* HighLightPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 732D264117953B24005817B4 /* HighLightPlugin.m */; };
+		735F367A17A2648E004BAEEB /* HighLightModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 735F367917A2648E004BAEEB /* HighLightModel.m */; };
+		F2F80A0C1B875C0200A22791 /* highlight-exkeyword.plist in Resources */ = {isa = PBXBuildFile; fileRef = F2F80A0B1B875C0200A22791 /* highlight-exkeyword.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		732D262B179538ED005817B4 /* highlight-Plugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "highlight-Plugin.xcplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		732D262E179538ED005817B4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		732D2631179538ED005817B4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		732D2632179538ED005817B4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		732D2633179538ED005817B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		732D2636179538ED005817B4 /* highlight-Plugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "highlight-Plugin-Info.plist"; sourceTree = "<group>"; };
+		732D2638179538ED005817B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		732D263A179538ED005817B4 /* highlight-Plugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "highlight-Plugin-Prefix.pch"; sourceTree = "<group>"; };
+		732D264017953B24005817B4 /* HighLightPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighLightPlugin.h; sourceTree = "<group>"; };
+		732D264117953B24005817B4 /* HighLightPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighLightPlugin.m; sourceTree = "<group>"; };
+		735F367817A2648E004BAEEB /* HighLightModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighLightModel.h; sourceTree = "<group>"; };
+		735F367917A2648E004BAEEB /* HighLightModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighLightModel.m; sourceTree = "<group>"; };
+		F2F4379E1ADEB7860054A4FE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		F2F80A0B1B875C0200A22791 /* highlight-exkeyword.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "highlight-exkeyword.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		732D2628179538ED005817B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732D262F179538ED005817B4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		732D2622179538ED005817B4 = {
+			isa = PBXGroup;
+			children = (
+				732D2634179538ED005817B4 /* highlight-Plugin */,
+				732D262D179538ED005817B4 /* Frameworks */,
+				732D262C179538ED005817B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		732D262C179538ED005817B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				732D262B179538ED005817B4 /* highlight-Plugin.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		732D262D179538ED005817B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				732D262E179538ED005817B4 /* Cocoa.framework */,
+				732D2630179538ED005817B4 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		732D2630179538ED005817B4 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				732D2631179538ED005817B4 /* AppKit.framework */,
+				732D2632179538ED005817B4 /* CoreData.framework */,
+				732D2633179538ED005817B4 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		732D2634179538ED005817B4 /* highlight-Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				732D2635179538ED005817B4 /* Supporting Files */,
+				732D264017953B24005817B4 /* HighLightPlugin.h */,
+				732D264117953B24005817B4 /* HighLightPlugin.m */,
+				735F367817A2648E004BAEEB /* HighLightModel.h */,
+				735F367917A2648E004BAEEB /* HighLightModel.m */,
+				F2F80A0B1B875C0200A22791 /* highlight-exkeyword.plist */,
+			);
+			path = "highlight-Plugin";
+			sourceTree = "<group>";
+		};
+		732D2635179538ED005817B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				732D2636179538ED005817B4 /* highlight-Plugin-Info.plist */,
+				732D2637179538ED005817B4 /* InfoPlist.strings */,
+				732D263A179538ED005817B4 /* highlight-Plugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		732D262A179538ED005817B4 /* highlight-Plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 732D263D179538ED005817B4 /* Build configuration list for PBXNativeTarget "highlight-Plugin" */;
+			buildPhases = (
+				732D2627179538ED005817B4 /* Sources */,
+				732D2628179538ED005817B4 /* Frameworks */,
+				732D2629179538ED005817B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "highlight-Plugin";
+			productName = "highlight-Plugin";
+			productReference = 732D262B179538ED005817B4 /* highlight-Plugin.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		732D2623179538ED005817B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = xiaojukeji;
+			};
+			buildConfigurationList = 732D2626179538ED005817B4 /* Build configuration list for PBXProject "highlight-Plugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 732D2622179538ED005817B4;
+			productRefGroup = 732D262C179538ED005817B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				732D262A179538ED005817B4 /* highlight-Plugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		732D2629179538ED005817B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2F80A0C1B875C0200A22791 /* highlight-exkeyword.plist in Resources */,
+				732D2639179538ED005817B4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		732D2627179538ED005817B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				732D264217953B24005817B4 /* HighLightPlugin.m in Sources */,
+				735F367A17A2648E004BAEEB /* HighLightModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		732D2637179538ED005817B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				732D2638179538ED005817B4 /* en */,
+				F2F4379E1ADEB7860054A4FE /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		732D263B179538ED005817B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		732D263C179538ED005817B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		732D263E179538ED005817B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "highlight-Plugin/highlight-Plugin-Prefix.pch";
+				INFOPLIST_FILE = "highlight-Plugin/highlight-Plugin-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		732D263F179538ED005817B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${HOME}";
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "highlight-Plugin/highlight-Plugin-Prefix.pch";
+				INFOPLIST_FILE = "highlight-Plugin/highlight-Plugin-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		732D2626179538ED005817B4 /* Build configuration list for PBXProject "highlight-Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732D263B179538ED005817B4 /* Debug */,
+				732D263C179538ED005817B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		732D263D179538ED005817B4 /* Build configuration list for PBXNativeTarget "highlight-Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				732D263E179538ED005817B4 /* Debug */,
+				732D263F179538ED005817B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 732D2623179538ED005817B4 /* Project object */;
+}

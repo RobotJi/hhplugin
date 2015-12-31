@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EEBD5E03-3817-4E3F-8C73-29CA7F212463</string>
+	<key>IDESourceControlProjectName</key>
+	<string>highlight-Plugin</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2D0C4607-415D-40D1-B5E9-9D12F1227E43</key>
+		<string>svn://code.fromtime.com/svn/pro</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/highlight-Plugin/highlight-Plugin.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2D0C4607-415D-40D1-B5E9-9D12F1227E43</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>2D0C4607-415D-40D1-B5E9-9D12F1227E43</key>
+		<string>svn://code.fromtime.com/svn/pro</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://code.fromtime.com/svn/pro/ios/highlight-Plugin/highlight-Plugin.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2D0C4607-415D-40D1-B5E9-9D12F1227E43</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2D0C4607-415D-40D1-B5E9-9D12F1227E43</string>
+			<key>IDESourceControlWCCName</key>
+			<string>pro</string>
+		</dict>
+	</array>
+</dict>
+</plist>
