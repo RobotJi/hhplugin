@@ -7,8 +7,11 @@ Xcode选中、语法 高亮插件
 以前一直是放在cocoachina上，现在放在这里维护吧。
 
 不同Xcode版本的插件安装目录：
+
 //Xcode 5.x  install path ~/Library/Application Support/Xcode/Plug-ins
+
 //Xcode 6.x  install path ~/Library/Application Support/Developer/Shared/Xcode/Plug-ins
+
 //Xcode 7.x  install path ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins
 
 /**
