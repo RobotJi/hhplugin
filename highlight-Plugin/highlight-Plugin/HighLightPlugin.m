@@ -12,6 +12,17 @@
 
 //Xcode 5.x  install path ~/Library/Application Support/Xcode/Plug-ins
 //Xcode 6.x  install path ~/Library/Application Support/Developer/Shared/Xcode/Plug-ins
+//Xcode 7.x  install path ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins
+
+/**
+ *  在新版Xcode里面插件会失效，请做如下操作
+ *  1、打开终端，输入：defaults read /Applications/Xcode.app/Contents/Info DVTPlugInCompatibilityUUID
+ *  命令后，会得到你的Xcode唯一串，如：7265231C-39B4-402C-89E1-16167C4CC990，
+ *  2、然后打开插件安装目录（上面），找到highlight-Plugin.xcplugin，右键-显示包内容，进去之后找到Info.plist
+ *  3、打开Info.plist，找到key为DVTPlugInCompatibilityUUID的array项，把刚才得到的Xcode唯一串添加进去，保存
+ *  4、然后重启Xcode，记得重启后在弹出的alert里面选择load bundle
+ *
+ */
 
 #define kMinCharacter 2
 #define kMaxCharacter 60
