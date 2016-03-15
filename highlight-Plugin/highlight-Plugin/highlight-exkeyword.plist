@@ -63,6 +63,9 @@
 		<string>__FUNCTION__</string>
 		<string>__FILE__</string>
 		<string>__LINE__</string>
+		<string>__unsafe_unretained</string>
+		<string>_Complex</string>
+		<string>class</string>
 	</array>
 </dict>
 </plist>
